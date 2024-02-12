@@ -97,3 +97,10 @@ button {
   line-height: 1.2;
   color: #2e2f42;
 }
+
+.portfolio-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
