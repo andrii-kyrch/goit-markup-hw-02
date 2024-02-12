@@ -1,6 +1,8 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
   background-color: #ffffff;
 }
@@ -19,6 +21,13 @@ button {
   cursor: pointer;
 }
 
+.section-title {
+  font-size: 36px;
+  line-height: 1.11111;
+  text-align: center;
+  color: #2e2f42;
+}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -34,8 +43,6 @@ button {
 
 .menu-link {
   font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -48,11 +55,6 @@ button {
   font-style: normal;
 }
 
-.contact-link {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
 .contact-link:hover,
 .contact-link:focus {
   color: #404bbf;
@@ -61,7 +63,6 @@ button {
 .page-title {
   font-size: 56px;
   line-height: 1.07143;
-  letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
   background-color: #2e2f42;
@@ -69,7 +70,6 @@ button {
 
 .hero-btn {
   font-weight: 500;
-  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #404bbf;
@@ -84,11 +84,16 @@ button {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
-.benefits-list-text {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.team-list {
+  text-align: center;
+}
+
+.team-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
 }
