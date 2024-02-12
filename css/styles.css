@@ -85,13 +85,14 @@ button {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  border-color: #404bbf;
+  background-color: #404bbf;
 }
 
 .benefits-list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -111,6 +112,7 @@ button {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -118,6 +120,7 @@ button {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
